@@ -4,7 +4,7 @@ import 'package:equatable/equatable.dart';
 import 'package:stb_cat_app/features/models/cat.dart';
 import 'package:stb_cat_app/features/repository/cats_repo.dart';
 
-import 'delete_cats_state.dart';
+
 
 part 'downloaded_cats_state.dart';
 
@@ -31,6 +31,16 @@ class DownloadedCatsCubit extends Cubit<DownloadedCatsState> {
       emit(DeleteCatLoadedState(deleted));
     } on Exception {
       emit(DownloadedCatsErrorState());
+    }
+  }
+
+  Future<void> update(Photo photo)  async {
+    try {
+      emit(UpdatedCatsLoadingState());
+      final  int deleted =  await repository.update(photo);
+      emit(UpdatedCatsLoadedState(deleted));
+    } on Exception {
+      emit(UpdatedCatsErrorState());
     }
   }
 

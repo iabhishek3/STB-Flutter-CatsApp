@@ -7,6 +7,7 @@ import 'package:stb_cat_app/features/repository/cats_repo.dart';
 import 'package:stb_cat_app/features/state/remote_cats/cubit/cats_cubit.dart';
 import 'package:stb_cat_app/features/state/remote_cats/cubit/save_image_cubit.dart';
 import 'package:stb_cat_app/features/utils/screen_util.dart';
+import 'package:flutter_device_type/flutter_device_type.dart';
 
 class CatCard extends StatefulWidget {
   const CatCard({Key? key}) : super(key: key);
@@ -33,15 +34,23 @@ class _CatCardState extends State<CatCard> {
       WidgetsBinding.instance
           ?.addPostFrameCallback((_) => _showMyDialog(context));
     }
+    if (stateA is SavingImageState) {
+      return const Center(child: CircularProgressIndicator());
+    }
     return Scaffold(
+      appBar: AppBar(title: const Text("Cat World"),),
       body: BlocBuilder<CatsCubit, CatsState>(
         builder: (BuildContext context, CatsState state) {
+
           if (state is CatsLoadedState) {
             return OrientationBuilder(builder: (context, orientation) {
+
               return Center(
                 child: SizedBox(
-                  height: getHeight(orientation, context),
-                  width: getWidth(orientation, context),
+                   height: Device.get().isTablet ? getHeight(orientation, context) :400,
+                  width: Device.get().isTablet ? getWidth(orientation, context) :350,
+                  // height: getHeight(orientation, context),
+                  // width: getWidth(orientation, context),
                   child: GestureDetector(
                     onTap: () {
                       Navigator.push(
