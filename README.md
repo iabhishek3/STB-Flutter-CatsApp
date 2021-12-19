@@ -27,8 +27,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a>
+    <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/STB-app.gif"  width="800" height="800">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
