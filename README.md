@@ -1,12 +1,14 @@
-  <h3 align="center">STB - Save Cat image app</h3>
+  <h3 align="center">STB - Save Cat image app (Phone and Tablet)</h3>
 <br />
 <p>
   <a>
     <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/STB-app.gif"  width="800" height="800">
-
   </a>
   <a>
      <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/mobile-view.gif"  width="200" height="400">
+      <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-20%20at%2012.16.05%20AM.png"  width="200" height="400">
+      <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-20%20at%2012.16.15%20AM.png"  width="200" height="400">
+      <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-20%20at%2012.16.37%20AM.png"  width="200" height="400">
     </a>
 
 
@@ -90,48 +92,22 @@ To setup project and run in local   [Install Flutter] (https://docs.flutter.dev/
    flutter run
    ```
 
+## Screenshots
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+  <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.52.16%20PM.png"  width="800" height="850">
+    <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.52.35%20PM.png"  width="800" height="850">
+      <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.53.15%20PM.png"  width="800" height="850">
+            <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.54.00%20PM.png"  width="800" height="850">
+                  <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.53.15%20PM.png"  width="800" height="800">
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [Abhishek kumar](https://www.linkedin.com/in/iabhishek-kumar/) - abhishek.111002@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
