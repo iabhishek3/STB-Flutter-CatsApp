@@ -1,9 +1,13 @@
   <h3 align="center">STB - Save Cat image app</h3>
 <br />
-<p align="center">
+<p>
   <a>
     <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/STB-app.gif"  width="800" height="800">
+
   </a>
+  <a>
+     <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/mobile-view.gif"  width="200" height="400">
+    </a>
 
 
 <!-- 
