@@ -1,9 +1,12 @@
-  <h3 align="center">STB - Save Cat image app (Phone and Tablet)</h3>
+  <h2 align="center">STB - Save Cat image app (Phone and Tablet)</h2>
+  <p> App is tested in Ipad Pro(11 Inch) ,Ipad Pro(9.7 Inch) and Iphone 12 and Pro </p>
 <br />
 <p>
   <a>
     <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/STB-app.gif"  width="800" height="800">
   </a>
+ 
+ 
   <a>
      <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/mobile-view.gif"  width="200" height="400">
       <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-20%20at%2012.16.05%20AM.png"  width="200" height="400">
@@ -71,6 +74,9 @@ This app is build with flutter SDK(">=2.15.0 <3.0.0") with statemagment with Blo
 * [sqflite](https://pub.dev/packages/sqflite)
 
 
+  <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/DesignDiagram.jpg"  width="1000" height="700">
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -99,7 +105,7 @@ To setup project and run in local   [Install Flutter] (https://docs.flutter.dev/
     <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.52.35%20PM.png"  width="800" height="850">
       <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.53.15%20PM.png"  width="800" height="850">
             <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.54.00%20PM.png"  width="800" height="850">
-                  <img src="https://github.com/iabhishek3/STB-Flutter-CatsApp/blob/master/Screenshot%202021-12-19%20at%2010.53.15%20PM.png"  width="800" height="800">
+               
 
 
 
